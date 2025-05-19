@@ -1,0 +1,304 @@
+{
+    "pizzarias": [
+        {
+            "id": 1,
+            "nome": "Pizza Delícia",
+            "endereco": "Rua das Pizzas, 123",
+            "horario_funcionamento": "18:00 - 23:00",
+            "avaliacao_media": 4.5,
+            "menu": [
+                {
+                    "nome": "Margherita",
+                    "descricao": "Molho de tomate, mozzarella, manjericão fresco",
+                    "preco": 25.0,
+                    "categoria": "Tradicional"
+                },
+                {
+                    "nome": "Pepperoni",
+                    "descricao": "Molho de tomate, mozzarella, pepperoni",
+                    "preco": 28.0,
+                    "categoria": "Tradicional"
+                },
+                {
+                    "nome": "Portuguesa",
+                    "descricao": "Molho de tomate, mozzarella, presunto, ovo, cebola, azeitona",
+                    "preco": 30.0,
+                    "categoria": "Especial"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "nome": "Forno a Lenha",
+            "endereco": "Avenida Central, 456",
+            "horario_funcionamento": "19:00 - 00:00",
+            "avaliacao_media": 4.8,
+            "menu": [
+                {
+                    "nome": "Calabresa",
+                    "descricao": "Molho de tomate, mozzarella, calabresa fatiada, cebola",
+                    "preco": 27.0,
+                    "categoria": "Tradicional"
+                },
+                {
+                    "nome": "Quatro Queijos",
+                    "descricao": "Molho de tomate, mozzarella, provolone, parmesão, gorgonzola",
+                    "preco": 32.0,
+                    "categoria": "Especial"
+                },
+                {
+                    "nome": "Frango com Catupiry",
+                    "descricao": "Molho de tomate, mozzarella, frango desfiado, catupiry",
+                    "preco": 30.0,
+                    "categoria": "Especial"
+                }
+            ]
+        }
+    ],
+    "eletronicos": [
+        {
+            "id": 3,
+            "nome": "TecnoMundo",
+            "endereco": "Rua da Tecnologia, 789",
+            "horario_funcionamento": "09:00 - 18:00",
+            "avaliacao_media": 4.2,
+            "produtos": [
+                {
+                    "nome": "Smartphone XPTO",
+                    "descricao": "Última geração, câmera de 108MP",
+                    "preco": 2500.0,
+                    "categoria": "Celulares"
+                },
+                {
+                    "nome": "Notebook Pro",
+                    "descricao": "Ideal para trabalho e estudo",
+                    "preco": 4500.0,
+                    "categoria": "Computadores"
+                },
+                {
+                    "nome": "Fone de Ouvido Bluetooth",
+                    "descricao": "Som de alta qualidade, sem fios",
+                    "preco": 300.0,
+                    "categoria": "Acessórios"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "nome": "InfoShop",
+            "endereco": "Avenida dos Componentes, 101",
+            "horario_funcionamento": "10:00 - 19:00",
+            "avaliacao_media": 4.6,
+            "produtos": [
+                {
+                    "nome": "Placa de Vídeo RTX 4080",
+                    "descricao": "Para gamers exigentes",
+                    "preco": 5500.0,
+                    "categoria": "Componentes de PC"
+                },
+                {
+                    "nome": "Monitor Gamer 27 polegadas",
+                    "descricao": "144Hz, 1ms de resposta",
+                    "preco": 1800.0,
+                    "categoria": "Monitores"
+                }
+            ]
+        }
+    ],
+    "ferragens": [
+        {
+            "id": 5,
+            "nome": "Constrói Já",
+            "endereco": "Rua das Ferramentas, 202",
+            "horario_funcionamento": "08:00 - 18:00",
+            "avaliacao_media": 4.0,
+            "produtos": [
+                {
+                    "nome": "Martelo de Unha",
+                    "descricao": "Cabo emborrachado, 250g",
+                    "preco": 25.0,
+                    "categoria": "Ferramentas Manuais"
+                },
+                {
+                    "nome": "Furadeira de Impacto",
+                    "descricao": "750W, mandril 1/2",
+                    "preco": 250.0,
+                    "categoria": "Ferramentas Elétricas"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "nome": "Parafuso & Cia",
+            "endereco": "Avenida da Construção, 303",
+            "horario_funcionamento": "07:30 - 17:30",
+            "avaliacao_media": 4.3,
+            "produtos": [
+                {
+                    "nome": "Kit de Chaves de Fenda",
+                    "descricao": "6 peças, pontas imantadas",
+                    "preco": 45.0,
+                    "categoria": "Ferramentas Manuais"
+                },
+                {
+                    "nome": "Trena de 5 metros",
+                    "descricao": "Fita métrica resistente",
+                    "preco": 15.0,
+                    "categoria": "Medição"
+                }
+            ]
+        }
+    ],
+    "brechos": [
+        {
+            "id": 7,
+            "nome": "Brechó Chic",
+            "endereco": "Rua da Moda Sustentável, 404",
+            "horario_funcionamento": "10:00 - 19:00",
+            "avaliacao_media": 4.7,
+            "produtos": [
+                {
+                    "nome": "Vestido Vintage Floral",
+                    "descricao": "Anos 70, tamanho M",
+                    "preco": 80.0,
+                    "categoria": "Vestuário Feminino"
+                },
+                {
+                    "nome": "Jaqueta de Couro Clássica",
+                    "descricao": "Tamanho G, ótimo estado",
+                    "preco": 150.0,
+                    "categoria": "Casacos"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "nome": "Achados & Perdidos",
+            "endereco": "Travessa das Relíquias, 505",
+            "horario_funcionamento": "11:00 - 18:00",
+            "avaliacao_media": 4.1,
+            "produtos": [
+                {
+                    "nome": "Bolsa de Couro Retrô",
+                    "descricao": "Cor caramelo, bom estado",
+                    "preco": 60.0,
+                    "categoria": "Acessórios"
+                },
+                {
+                    "nome": "Camisa de Seda Estampada",
+                    "descricao": "Tamanho P, peça única",
+                    "preco": 40.0,
+                    "categoria": "Vestuário Feminino"
+                }
+            ]
+        }
+    ],
+    "boutiques": [
+        {
+            "id": 9,
+            "nome": "Elegância Pura",
+            "endereco": "Avenida do Luxo, 606",
+            "horario_funcionamento": "10:00 - 20:00",
+            "avaliacao_media": 4.9,
+            "produtos": [
+                {
+                    "nome": "Vestido de Festa Longo",
+                    "descricao": "Seda, cor marsala, tamanho M",
+                    "preco": 750.0,
+                    "categoria": "Vestidos"
+                },
+                {
+                    "nome": "Scarpin de Couro",
+                    "descricao": "Salto alto, preto clássico",
+                    "preco": 350.0,
+                    "categoria": "Sapatos"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "nome": "Estilo Urbano",
+            "endereco": "Rua da Moda Jovem, 707",
+            "horario_funcionamento": "09:30 - 19:30",
+            "avaliacao_media": 4.4,
+            "produtos": [
+                {
+                    "nome": "Jaqueta Jeans Customizada",
+                    "descricao": "Peça única, patches exclusivos",
+                    "preco": 280.0,
+                    "categoria": "Casacos"
+                },
+                {
+                    "nome": "Tênis Esportivo Edição Limitada",
+                    "descricao": "Conforto e estilo",
+                    "preco": 450.0,
+                    "categoria": "Calçados"
+                }
+            ]
+        }
+    ],
+    "restaurantes": [
+        {
+            "id": 11,
+            "nome": "Sabor Caseiro",
+            "endereco": "Alameda dos Sabores, 111",
+            "horario_funcionamento": "11:00 - 15:00, 18:00 - 22:00",
+            "avaliacao_media": 4.6,
+            "menu": [
+                {
+                    "nome": "Prato Feito Completo",
+                    "descricao": "Arroz, feijão, bife, batata frita, salada",
+                    "preco": 30.0,
+                    "categoria": "Pratos Principais"
+                },
+                {
+                    "nome": "Feijoada (Sábados)",
+                    "descricao": "Tradicional feijoada completa",
+                    "preco": 45.0,
+                    "categoria": "Especiais"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "nome": "Mar Aberto Frutos do Mar",
+            "endereco": "Avenida Beira Mar, 222",
+            "horario_funcionamento": "12:00 - 23:00",
+            "avaliacao_media": 4.7,
+            "menu": [
+                {
+                    "nome": "Moqueca de Peixe",
+                    "descricao": "Deliciosa moqueca com peixe fresco e dendê",
+                    "preco": 75.0,
+                    "categoria": "Pratos Principais"
+                },
+                {
+                    "nome": "Camarão na Moranga",
+                    "descricao": "Camarões cremosos servidos na moranga",
+                    "preco": 90.0,
+                    "categoria": "Especiais"
+                }
+            ]
+        }
+    ],
+    "discotecas": [
+        {
+            "id": 13,
+            "nome": "Noite Estrelada Club",
+            "endereco": "Rua da Balada, 333",
+            "horario_funcionamento": "22:00 - 04:00 (Sex, Sáb)",
+            "avaliacao_media": 4.3,
+            "eventos_especiais": "DJ Convidado toda sexta-feira",
+            "tipo_musica": "Eletrônica, Pop"
+        },
+        {
+            "id": 14,
+            "nome": "Bar do Rock",
+            "endereco": "Avenida dos Headbangers, 444",
+            "horario_funcionamento": "20:00 - 02:00 (Qui-Dom)",
+            "avaliacao_media": 4.5,
+            "eventos_especiais": "Bandas ao vivo todo sábado",
+            "tipo_musica": "Rock, Metal"
+        }
+    ]
+}
